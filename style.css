@@ -13,7 +13,10 @@
 }
 
 body{
+    margin: auto;
     background-color: #232323;
+    max-width: 60%;
+    min-width: 40%;
 }
 div{
     background-color: rgba(250, 235, 215, 0.541);
@@ -40,5 +43,5 @@ button :hover{
 
 p{
     color : #dbbd94
-    
+
 }
