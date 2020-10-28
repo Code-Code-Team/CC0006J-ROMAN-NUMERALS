@@ -32,6 +32,46 @@ At the end of the this coding challenge, students will be able to;
 ## ScreenShot
 ![Romans.png](images/romans.png)
 
+## Functions for Javascript and Python
+``` javascript
+function convertRomans (numEntered) {
+    var vNum = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+    var rNum = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
+    var result = "";
+    for(i = 0; i < vNum.length; i++) {
+        value = parseInt(numEntered/vNum[i]);
+        for(j = 0; j < value; j++) {
+            result += rNum[i];
+        }
+        numEntered = numEntered%vNum[i];
+    }
+    inputElement.value = ''
+    inputElement.focus()
+    return result;
+};
+```
+
+``` Python
+def int_to_Roman(num):
+    val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
+    syb = ["M", "CM", "D", "CD","C", "XC", "L", "XL","X", "IX", "V", "IV","I"]
+    roman_num = ''
+    i = 0
+    while num > 0:
+        for _ in range(num // val[i]):
+            roman_num += syb[i]
+            num -= val[i]
+        i += 1
+    return roman_num
+
+print('55')
+print(int_to_Roman(44))
+
+
+
+```
+
+
 ## Website
 -  <p align = "left"> <a href = "https://code-code-team.github.io/CC0006J-ROMAN-NUMERALS/" > Visit Romans</a> </p>
 
