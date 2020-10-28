@@ -45,8 +45,6 @@ function convertRomans (numEntered) {
         }
         numEntered = numEntered%vNum[i];
     }
-    inputElement.value = ''
-    inputElement.focus()
     return result;
 };
 ```
