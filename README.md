@@ -1,5 +1,8 @@
 <p> Thanks to Clarusway for this assignment <img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+  
+## Link
+-  <p align = "left"> <a href = "https://code-code-team.github.io/CC0006J-ROMAN-NUMERALS/" > Visit Romans</a> </p>
 
 # JS-CC-006 : Roman Numerals
 
@@ -70,8 +73,7 @@ print(int_to_Roman(44))
 ```
 
 
-## Website
--  <p align = "left"> <a href = "https://code-code-team.github.io/CC0006J-ROMAN-NUMERALS/" > Visit Romans</a> </p>
+
 
 ---
 
